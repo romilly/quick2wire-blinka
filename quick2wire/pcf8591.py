@@ -1,6 +1,6 @@
 import board
 import busio
-
+from time import sleep
 from adafruit_bus_device import i2c_device
 
 i2c = busio.I2C(board.SCL, board.SDA)
@@ -27,3 +27,4 @@ chip = PCF8591(i2c)
 
 while True:
     print(chip.read())
+    sleep(1)
