@@ -7,7 +7,7 @@ The company ceased trading some years ago and the developers have moved on to ot
 The Pi has moved on as well. All the old Quick2Wire software and documentation are so out-of-date that
 they are unusable.
 
-This repository will contain replacement code and (ewventually) documentation.
+This repository will contain replacement code and (eventually) documentation.
 
 It already allows you to use the Quick2Wire MCP23017 Port Expander and PCF8591 Analogue boards with a Raspberry Pi
 running buster with Adafruit Blinka.
@@ -26,9 +26,10 @@ Raspberry Pi Downverters are available from
 [SK Pang](http://skpang.co.uk/catalog/downgrade-gpio-ribbon-cable-for-raspberry-pi-model-b-40p-to-26p-p-1358.html)
 or you can make your own.
 
-You can also connect the boards directly to the Pi. I'll document that when I have time.
+You can also connect the boards directly to the Pi. 
+See the I2C pinout guide in the reference section.
 
-To runt the samples in the quick2write package, you'll need to install Adafruit Blinka library and their MCP230xx
+To run the samples in the quick2write package, you'll need to install Adafruit Blinka library and their MCP230xx
 library on your Pi 
 
 To do that, run `sudo pip3 install adafruit-circuitpython-mcp230xx`
