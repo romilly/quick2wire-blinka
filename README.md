@@ -1,5 +1,7 @@
 # Quick2Wire board support
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K61CLW1)
+
 Quick2Wire Limited was a UK-based startup that made add-on boards for the Raspberry Pi.
 
 The company ceased trading some years ago and the developers have moved on to other projects.
