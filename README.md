@@ -29,9 +29,15 @@ Raspberry Pi Downverters are available from
 or you can make your own.
 
 You can also connect the boards directly to the Pi. 
-See the I2C pinout guide in the reference section.
+Here is the I2c pinout
 
-To run the samples in the quick2write package, you'll need to install Adafruit Blinka library and their MCP230xx
+![I2C pinout](docs/img/i2c-pinout.png)
+
+The fritzing diagram blow shows how to use jumper wires to connect a Pi directly to an IDC connector on the analog or port expander boards.
+
+![](docs/img/q2w-i2c-direct-connection_bb.png)
+
+To run the samples in the quick2wire package, you'll need to install Adafruit Blinka library and their MCP230xx
 library on your Pi 
 
 To do that, run `sudo pip3 install adafruit-circuitpython-mcp230xx`
