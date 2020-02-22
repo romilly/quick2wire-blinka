@@ -43,3 +43,5 @@ library on your Pi
 To do that, run `sudo pip3 install adafruit-circuitpython-mcp230xx`
 
 Then you can run the examples using python3.
+
+I'm also working on a collection of boards and software thet make it easy to connect a range of peripherals to various single board computers. The [hardware](https://github.com/romilly/babelboard-hardware) and [software](https://github.com/romilly/babelboard-software) are on GitHub.
